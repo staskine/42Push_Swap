@@ -33,6 +33,7 @@
 Stack A: 2 1 3 6 5 8 Stack B: _ _
 
 ### Sorting Steps:
+```
 sa # Swap 2 and 1
 pb
 pb
@@ -45,6 +46,7 @@ sa # Swap again
 pa
 pa
 pa # Push elements back to A
+```
 
 ### ✅ Final Sorted State:
 Stack A: 1 2 3 5 6 8 Stack B: _ _
