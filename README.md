@@ -33,7 +33,7 @@
 Stack A: 2 1 3 6 5 8 Stack B: _ _
 
 ### Sorting Steps:
-sa # Swap 2 and 1 
+sa # Swap 2 and 1
 pb
 pb
 pb # Push top three elements from A to B
