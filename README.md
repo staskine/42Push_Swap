@@ -62,20 +62,14 @@ Stack A: 1 2 3 5 6 8 Stack B: _ _
   - 📝 Output must be newline-separated
   - 🚨 Must return an error for invalid inputs
 
+--
 ## ▶️ Usage
 $ ./push_swap 2 1 3 6 5 8
-sa
-pb
-pb
-pb
-sa
-pa
-pa
-pa
 
+--
 ##⚠️ Error Handling
-$ ./push_swap 0 one 2 3
-Error
+`$ ./push_swap 0 one 2 3
+`Error
 --
 ##✅ Verification
 To check your sorting efficiency:
