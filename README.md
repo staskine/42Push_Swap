@@ -60,18 +60,16 @@ pa # Push elements back to A
   - 📝 Output must be newline-separated
   - 🚨 Must return an error for invalid inputs
 
---
 ##⚠️ Error Handling
 - $ ./push_swap 0 one 2 3
 - Error
---
+
 ##✅ Verification
 - To check your sorting efficiency:
 - $ ARG="4 67 3 87 23"; ./push_swap $ARG | wc -l
---
+
 ##🏗 Sorting Algorithm
 - This project uses Radix Sort, an efficient non-comparative sorting algorithm, optimized for the given constraints.
 
---
 ##🎯 Conclusion
 - push_swap is a challenging sorting algorithm project that requires optimizing operations to sort a stack with the fewest possible moves. Efficient implementation and algorithmic strategy are key to achieving a competitive solution. 🚀
