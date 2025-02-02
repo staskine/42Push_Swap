@@ -48,8 +48,6 @@ pa
 pa # Push elements back to A
 ```
 
-### ✅ Final Sorted State:
-Stack A: 1 2 3 5 6 8 Stack B: _ _
 
 ## 📌 Program Requirements
 - **Program Name:** `push_swap`
@@ -63,21 +61,17 @@ Stack A: 1 2 3 5 6 8 Stack B: _ _
   - 🚨 Must return an error for invalid inputs
 
 --
-## ▶️ Usage
-$ ./push_swap 2 1 3 6 5 8
-
---
 ##⚠️ Error Handling
-`$ ./push_swap 0 one 2 3
-`Error
+- $ ./push_swap 0 one 2 3
+- Error
 --
 ##✅ Verification
-To check your sorting efficiency:
-$ ARG="4 67 3 87 23"; ./push_swap $ARG | wc -l
+- To check your sorting efficiency:
+- $ ARG="4 67 3 87 23"; ./push_swap $ARG | wc -l
 --
 ##🏗 Sorting Algorithm
-This project uses Radix Sort, an efficient non-comparative sorting algorithm, optimized for the given constraints.
+- This project uses Radix Sort, an efficient non-comparative sorting algorithm, optimized for the given constraints.
 
 --
 ##🎯 Conclusion
-push_swap is a challenging sorting algorithm project that requires optimizing operations to sort a stack with the fewest possible moves. Efficient implementation and algorithmic strategy are key to achieving a competitive solution. 🚀
+- push_swap is a challenging sorting algorithm project that requires optimizing operations to sort a stack with the fewest possible moves. Efficient implementation and algorithmic strategy are key to achieving a competitive solution. 🚀
